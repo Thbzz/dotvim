@@ -58,9 +58,9 @@ if has("autocmd")
 
     au BufWritePre *.[ch] call CUpdate_Headers()
 "" au BufWritePre *.cc call CUpdate_Headers()
-    au BufWritePre *.cc call CSSeCpp()
-    au BufWritePre *.hh call CSSeCpp()
-    au BufWritePre *.hxx call CSSeCpp()
+"    au BufWritePre *.cc call CSSeCpp()
+"    au BufWritePre *.hh call CSSeCpp()
+"    au BufWritePre *.hxx call CSSeCpp()
 "" au BufWritePre *.hh call CUpdate_Headers()
 "" au BufWritePre *.hxx call CUpdate_Headers()
     au BufWritePre *.hcc call CUpdate_Headers()
@@ -80,16 +80,16 @@ if has("autocmd")
     au BufWritePre *.m4 call CUpdate_Headers()
   aug END
 
-  function CSSeCpp()
-      "" removes trailing whitespaces
-      execute "% s,\\s\\+$,,e"
-      "" set one space before parenthesis
-      execute "% s,\\([^(]\\)\\s*(,\\1 (,e"
-      "" removes whitespaces between opening parents
-      execute "% s,(\\s*(,((,e"
-      "" removes double whitespaces
-      execute "% s,\\(\\S\\)\\s\\s\\+\\(\\S\\),\\1 \\2,eg"
-  endfun
+"function CSSeCpp()
+"      "" removes trailing whitespaces
+"      execute "% s,\\s\\+$,,e"
+"      "" set one space before parenthesis
+"      execute "% s,\\([^(]\\)\\s*(,\\1 (,e"
+"      "" removes whitespaces between opening parents
+"      execute "% s,(\\s*(,((,e"
+"      "" removes double whitespaces
+"      execute "% s,\\(\\S\\)\\s\\s\\+\\(\\S\\),\\1 \\2,eg"
+"  endfun
 
   function ReplaceFields(cs, cm, ce)
     execute "% s,@CS@," . a:cs . ",ge"
@@ -104,7 +104,7 @@ if has("autocmd")
   endfun
 
   function CFile_New()
-    0r $VIMHOME/c.tpl
+    0r $VIMHOME/skel/c.tpl
     call ReplaceFields('/*', '**', '*/')
     execute "2"
     normal 5w

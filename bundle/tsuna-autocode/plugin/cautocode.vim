@@ -34,10 +34,10 @@ if has("autocmd")
   endfun
 
   function CXXFile_Map()
-    imap { {<NL> <BS><NL>}<Up><End>
+    inoremap { {<NL> <BS><NL>}<Up><End>
     " uggly but seems necessary to avoid an infinite recursion of the mapping
-    imap ( ()<Left><Left><Space><Right>
-    imap [ []<Left>
+    inoremap ( ()<Left><Left><Space><Right>
+    inoremap [ []<Left>
   endfun
 
   function CXXFile_UnMap()

@@ -1,3 +1,23 @@
 [submodule "bundle/ProtoDef"]
 	path = bundle/ProtoDef
 	url = git@github.com:Thbzz/ProtoDef.git
+
+[submodule "bundle/csapprox"]
+	path = bundle/csapprox
+	url = git@github.com:Thbzz/csapprox.git
+
+[submodule "bundle/std_c.zip"]
+	path = bundle/stc_c.zip
+	url = git@github.com:Thbzz/std_c.zip.git
+
+[submodule "bundle/snipmate.vim"]
+	path = bundle/snipmate.vim
+	url = git@github.com:Thbzz/snipmate.vim.git
+
+[submodule "bundle/FSwitch"]
+	path = bundle/FSwitch
+	url = git@github.com:Thbzz/FSwitch.git
+
+[submodule "bundle/vim-colorschemes"]
+	path = bundle/vim-colorschemes
+	url = git@github.com:flazz/vim-colorschemes.git

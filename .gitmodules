@@ -16,3 +16,21 @@
 [submodule "colorschemes"]
 	path = colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
+[submodule "bundle/colorschemes"]
+	path = bundle/colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git
+[submodule "bundle/std_c"]
+	path = bundle/std_c
+	url = https://github.com/Thbzz/std_c.zip.git
+[submodule "bundle/protodef"]
+	path = bundle/protodef
+	url = https://github.com/Thbzz/ProtoDef.git
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = https://github.com/Thbzz/snipmate.vim.git
+[submodule "bundle/csapprox"]
+	path = bundle/csapprox
+	url = https://github.com/Thbzz/csapprox.git
+[submodule "bundle/fswitch"]
+	path = bundle/fswitch
+	url = https://github.com/Thbzz/FSwitch.git

@@ -27,3 +27,6 @@
 [submodule "std_c.zip"]
 	path = std_c.zip
 	url = git@github.com:Thbzz/std_c.zip.git
+[submodule "bundle/std_c"]
+	path = bundle/std_c
+	url = git@github.com:Thbzz/std_c.zip.git

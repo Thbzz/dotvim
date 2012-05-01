@@ -1,6 +1,18 @@
-This is my vim configuration folder
-You just have to git clone this repo, rename the folder "dotvim" to ".vim"
-and finally add those three lines to your "~/.vimrc" file.
+"" This is my vim configuration folder.
+"" To benefit from it, you should place it in your home.
+"" You just have to git clone this repo, rename the cloned
+"" folder "dotvim" to ".vim" and finally add the three lines to 
+"" your "~/.vimrc" file.
+"" Be careful not to erase your existing configuration.
+
+"" You should run:
+"" cd
+"" git clone https://github.com/Thbzz/dotvim.git
+"" mv dotvim .vim
+"" cat .vim/README >> .vimrc
+"" cd .vim
+"" git submodule init
+"" git submodule update
 
 
 if filereadable(expand("~/.vim/.vimrc"))

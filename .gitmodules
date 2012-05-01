@@ -7,7 +7,7 @@
 	url = git@github.com:Thbzz/csapprox.git
 
 [submodule "bundle/std_c.zip"]
-	path = bundle/stc_c.zip
+	path = bundle/std_c.zip
 	url = git@github.com:Thbzz/std_c.zip.git
 
 [submodule "bundle/snipmate.vim"]

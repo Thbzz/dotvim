@@ -1,0 +1,3 @@
+[submodule "bundle/ProtoDef"]
+	path = bundle/ProtoDef
+	url = git@github.com:Thbzz/ProtoDef.git

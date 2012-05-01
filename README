@@ -1,1 +1,8 @@
 This is my vim configuration folder
+You just have to git clone this repo, rename the folder "dotvim" to ".vim"
+and finally add those three lines to your "~/.vimrc" file.
+
+
+if filereadable(expand("~/.vim/.vimrc"))
+    source  $HOME/.vim/.vimrc
+endif

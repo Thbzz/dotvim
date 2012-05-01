@@ -1,32 +1,18 @@
-[submodule "bundle/ProtoDef"]
-	path = bundle/ProtoDef
-	url = https://github.com:Thbzz/ProtoDef.git
-
-[submodule "bundle/csapprox"]
-	path = bundle/csapprox
-	url = https://github.com:Thbzz/csapprox.git
-
-[submodule "bundle/std_c.zip"]
-	path = bundle/std_c.zip
-	url = https://github.com:Thbzz/std_c.zip.git
-
-[submodule "bundle/snipmate.vim"]
-	path = bundle/snipmate.vim
-	url = https://github.com:Thbzz/snipmate.vim.git
-
-[submodule "bundle/FSwitch"]
-	path = bundle/FSwitch
-	url = https://github.com:Thbzz/FSwitch.git
-
-[submodule "bundle/vim-colorschemes"]
-	path = bundle/vim-colorschemes
-	url = https://github.com:flazz/vim-colorschemes.git
-[submodule "bundle/snipmate"]
-	path = bundle/snipmate
-	url = https://github.com:Thbzz/snipmate.vim.git
-[submodule "std_c.zip"]
-	path = std_c.zip
-	url = https://github.com:Thbzz/std_c.zip.git
-[submodule "bundle/std_c"]
-	path = bundle/std_c
-	url = https://github.com:Thbzz/std_c.zip.git
+[submodule "FSwitch"]
+	path = FSwitch
+	url = https://github.com/Thbzz/FSwitch.git
+[submodule "csapprox"]
+	path = csapprox
+	url = https://github.com/Thbzz/csapprox.git
+[submodule "snipmate"]
+	path = snipmate
+	url = https://github.com/Thbzz/snipmate.vim.git
+[submodule "protodef"]
+	path = protodef
+	url = https://github.com/Thbzz/ProtoDef.git
+[submodule "std_c"]
+	path = std_c
+	url = https://github.com/Thbzz/std_c.zip.git
+[submodule "colorschemes"]
+	path = colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git

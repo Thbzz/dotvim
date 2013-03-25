@@ -5,6 +5,8 @@
 "" your "~/.vimrc" file.
 "" Be careful not to erase your existing configuration.
 
+"" Instaling :
+
 "" You should run:
 "" cd
 "" git clone https://github.com/Thbzz/dotvim.git
@@ -15,6 +17,9 @@
 "" git submodule update
 
 
-if filereadable(expand("~/.vim/.vimrc"))
-    source  $HOME/.vim/.vimrc
+
+let g:vimrc=expand("<sfile>:p:h")."/.vim/vimrc"
+
+if filereadable(g:vimrc)
+    exe 'source' g:vimrc
 endif

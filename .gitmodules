@@ -34,3 +34,12 @@
 [submodule "bundle/fswitch"]
 	path = bundle/fswitch
 	url = https://github.com/Thbzz/FSwitch.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "bundle/LustyJuggler"]
+	path = bundle/LustyJuggler
+	url = https://github.com/vim-scripts/LustyJuggler.git

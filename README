@@ -1,25 +1,24 @@
-"" This is my vim configuration folder.
-"" To benefit from it, you should place it in your home.
-"" You just have to git clone this repo, rename the cloned
-"" folder "dotvim" to ".vim" and finally add the three lines to 
-"" your "~/.vimrc" file.
-"" Be careful not to erase your existing configuration.
+This is my vim configuration folder.
+To benefit from it, you should place it in your home.
+You just have to git clone this repo, rename the cloned
+folder "dotvim" to ".vim" and finally add the three lines to 
+your "~/.vimrc" file.
+Be careful not to erase your existing configuration.
 
-"" Instaling :
+Instaling :
 
-"" You should run:
-"" cd
-"" git clone https://github.com/Thbzz/dotvim.git
-"" mv dotvim .vim
-"" cat .vim/README >> .vimrc
-"" cd .vim
-"" git submodule init
-"" git submodule update
+You should run:
+cd
+git clone git://github.com/Thbzz/dotvim.git
+mv dotvim .vim
+cat .vim/.vimrc >> .vimrc
+cd .vim
+git submodule init
+git submodule update
 
 
+The YouCompleteMe plugin requires a little more configuration.
+You should have clang, cmake and python2.7 installed then run:
 
-let g:vimrc=expand("<sfile>:p:h")."/.vim/vimrc"
-
-if filereadable(g:vimrc)
-    exe 'source' g:vimrc
-endif
+cd ~/.vim/bundle/YouCompleteMe
+./install.sh --clang-completer

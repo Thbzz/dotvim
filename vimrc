@@ -39,7 +39,7 @@ set grepprg=grep\ -nH\ $*
 let g:tex_flavor = "latex"
 let g:alternateExtensions_CPP = "hxx"
 
-let g:ycm_global_ycm_extra_conf = "$VIM_HOME/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py"
+let g:ycm_global_ycm_extra_conf = $VIM_HOME."/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py"
 "let g:protodefprotogetter = "~/.vim/bundle/ProtoDef/pullproto.pl"
 "set tags += "$VIM/tags/cpp"
 
